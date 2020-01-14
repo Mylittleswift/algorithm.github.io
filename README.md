@@ -1,29 +1,9 @@
-### Markdown
+| # | Title | Related Topics | Difficulty | Company |
+|---| ----- | -------------- | ---------- | ------- |
+|1|[Two Sum](#two-sum)| Array, Hash Table | Easy | Google, Facebook, Amazon |
+|1|[Ad Two Number](#add-two-number)| Linked List, Math | Easy | Google, Facebook, Amazon |
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|1|[Two Sum] | [Swift](./algorithms/swift/2Sum/2Sum.swift)|Easy|
-
-## 1. Two Sum
+### 1. Two Sum
 _Easy_
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
@@ -37,7 +17,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
-### Solution
+
 ```
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -54,4 +34,18 @@ class Solution {
         return out
     }
 }
+```
+
+### 2. Add Two Numbers
+_Medium_
+
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+Example:
+```
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+Explanation: 342 + 465 = 807.
 ```
