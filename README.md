@@ -1,30 +1,49 @@
-|  #  |                    Title                    |      Related Topics      |Difficulty|            Company           |
-|-----|---------------------------------------------|--------------------------|----------|------------------------------|
-|  1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  3  | [Longest Substring Without Repeating Characters](#3-longest-substring-without-repeating-characters)| Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  #  |                    Title                    |      Related Topics      |            Company           |
+|-----|---------------------------------------------|--------------------------|------------------------------|
+|  1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Google,Facebook,Amazon,Apple |
+|  3  | [Longest Substring Without Repeating Characters](#3-longest-substring-without-repeating-characters)| Linked List, Math        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+| 1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Google,Facebook,Amazon,Apple |
+
 
 
 
