@@ -2,8 +2,29 @@
 |-----|---------------------------------------------|--------------------------|----------|------------------------------|
 |  1  | [Two Sum](#1-two-sum)                       | Array, Hash Table        | Easy     | Google,Facebook,Amazon,Apple |
 |  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
-
-
+|  3  | [Longest Substring Without Repeating Characters](#3-longest-substring-without-repeating-characters)| Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
+|  2  | [Add Two Number](#2-add-two-numbers)        | Linked List, Math        | Easy     | Google,Facebook,Amazon,Apple |
 
 
 
@@ -21,21 +42,19 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
-
-```
+```swift
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var out: [Int] = []
-       
+        var result: [Int] = []
         var dict:[Int: Int] = [:]     
         for (index,num) in nums.enumerated() {
             if let sum = dict[target - num] {
-                out.append(index)
-                out.append(sum)
+                result.append(index)
+                result.append(sum)
             } 
             dict[num] = index
         }
-        return out
+        return result
     }
 }
 ```
@@ -54,30 +73,24 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
 
-```
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     public var val: Int
- *     public var next: ListNode?
- *     public init(_ val: Int) {
- *         self.val = val
- *         self.next = nil
- *     }
- * }
- */
+```swift
 class Solution {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         var c1: ListNode? = l1
         var c2: ListNode? = l2
-        if c1==nil
-        {return c2!}
-        if c2==nil
-        {return c1!}
-        var sentinel = ListNode(0)
-        var d: ListNode?  = sentinel;
-        var sum:Int = 0
-        while (c1 != nil || c2 != nil) {
+        if c1 == nil {
+            return c2
+        }
+        
+        if c2 == nil {
+            return c1
+        }
+        
+        var helper = ListNode(0)
+        var dummy: ListNode? = helper
+        var sum = 0
+        
+        while c1 != nil || c2 != nil {
             sum /= 10
             if c1 != nil {
                 sum += c1!.val
@@ -87,15 +100,16 @@ class Solution {
                 sum += c2!.val
                 c2 = c2!.next
             }
-            d!.next = ListNode(sum % 10)
-            d = d!.next;
-        }        
+            dummy!.next = ListNode(sum % 10)
+            dummy = dummy!.next
+
+        }
         
-        if sum / 10 == 1
-          {
-              d!.next = ListNode(1)
-          }    
-        return sentinel.next        
+        if sum / 10 == 1 {
+            dummy!.next = ListNode(1)
+        }
+        
+        return helper.next
     }
 }
 ```
