@@ -1,7 +1,11 @@
 | # | Title | Related Topics | Difficulty | Company |
 |---| ----- | -------------- | ---------- | ------- |
-|1|[Two Sum](#two-sum)| Array, Hash Table | Easy | Google, Facebook, Amazon |
-|1|[Ad Two Number](#add-two-number)| Linked List, Math | Easy | Google, Facebook, Amazon |
+|1|[Two Sum](#1-two-sum)| Array, Hash Table | Easy | Google, Facebook, Amazon |
+|1|[Add Two Number](#add-two-numbers)| Linked List, Math | Easy | Google, Facebook, Amazon |
+
+
+
+
 
 ### 1. Two Sum
 _Easy_
@@ -36,7 +40,7 @@ class Solution {
 }
 ```
 
-### 2. Add Two Numbers
+### Add Two Numbers
 _Medium_
 
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
